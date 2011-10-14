@@ -21,7 +21,7 @@ namespace Mooege.Core.GS.Player
         public int EquipmentSlots { get { return _equipment.GetLength(0); } }
         
         private readonly Mooege.Core.GS.Player.Player _owner; // Used, because most information is not in the item class but Actors managed by the world
-        private Item _inventoryGold; // Testing commit /D3luxe
+        private Item _inventoryGold; // Testing commit - D3luxe
 
         private uint[] _equipment;      // array of equiped items_id  (not item)
 
